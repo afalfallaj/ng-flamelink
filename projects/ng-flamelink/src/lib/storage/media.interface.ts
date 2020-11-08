@@ -2,7 +2,7 @@ import { FileObject, ImageSize } from '@flamelink/sdk-storage-types';
 
 export interface MediaMeta {
 	createdBy?: string;
-	createdDate?: firebase.firestore.Timestamp;
+	createdDate?: firebase.default.firestore.Timestamp;
 	docId?: string;
 }
 
