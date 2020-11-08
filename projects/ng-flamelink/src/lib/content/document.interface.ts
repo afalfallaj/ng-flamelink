@@ -2,12 +2,12 @@ import { DocumentReference } from '@angular/fire/firestore';
 
 export interface DocumentMeta {
 	createdBy?: string;
-	createdDate?: firebase.firestore.Timestamp;
+	createdDate?: firebase.default.firestore.Timestamp;
 	docId?: string;
 	env?: string;
 	fl_id?: string;
 	lastModifiedBy?: string;
-	lastModifiedDate?: firebase.firestore.Timestamp;
+	lastModifiedDate?: firebase.default.firestore.Timestamp;
 	locale?: string;
 	schema?: string;
 	schemaRef?: DocumentReference;
